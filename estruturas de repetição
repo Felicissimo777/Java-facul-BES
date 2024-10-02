@@ -15,6 +15,9 @@ public class Cambalhota {
 			cc++;
 
 	}
+if (cc == 5 || cc == 7 || cc == 9) {
+	continue;
+}
 		
 
 }
