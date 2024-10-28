@@ -1,0 +1,21 @@
+Operacoes
+public class operacoes {
+public static String contador(int i , int f) {
+	String s = "";
+	for(int c = i; c<=f; c++) {
+		s  += c + " ";
+	}
+	return s;
+}
+}
+
+
+testefunção02
+public class testefunção02 {
+
+	public static void main(String[] args) {
+System.out.println("Vsi começar a contagem");
+System.out.println(operacoes.contador(1,5));
+	}
+
+}
